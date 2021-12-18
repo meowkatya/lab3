@@ -1,8 +1,0 @@
-# Практическая работа 3
-
-```python
-#Выбираем предобученную модель
-model = torchvision.models.googlenet(pretrained=True)
-model
-#передаем модель в функцию
-set_parameter_requires_grad(model)
